@@ -1,8 +1,8 @@
 class Navi < Formula
   desc "An interactive cheatsheet tool for the command-line"
-  homepage "https://github.com/denisidoro/navi"
-  url "https://github.com/denisidoro/navi/archive/v0.5.0.tar.gz"
-  sha256 "8ca49b7032277f74244e737edd1a4fe2f296918cdd3d00c0734c67b4f1649ff2"
+  homepage "https://github.com/denisidoro/navi"  
+  url "https://github.com/denisidoro/navi/archive/v0.6.0.tar.gz"
+  sha256 "8ebbf70c55f35edfc63b70b1bf539e701de69e7fbcd30445e2f1ba327ea0fdde"
   
   depends_on "fzf" => :build
 
