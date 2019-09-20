@@ -4,8 +4,8 @@
 class Cheats < Formula
   desc "WIP"
   homepage ""
-  url "https://github.com/denisidoro/cheats/archive/v0.1.0.tar.gz"
-  sha256 "917393316e42fe41e02eb2666c9c11d178669d0e3bb0dae592db4e5c023ffb90"
+  url "https://github.com/denisidoro/cheats/archive/v0.2.0.tar.gz"
+  sha256 "323570ea77782e61cda61a059a352abfefc02259e7e532dc2f1b96b8cd5aa624"
   # depends_on "cmake" => :build
 
   def install
@@ -13,7 +13,7 @@ class Cheats < Formula
     libexec.install Dir["*"]
 
     # Then write executables under #{bin}/
-    bin.write_exec_script (libexec/"src/cheats")
+    bin.write_exec_script (libexec/"cheats")
   end
 
 end
