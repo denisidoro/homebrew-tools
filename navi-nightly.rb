@@ -1,7 +1,6 @@
 class NaviNightly < Formula
   desc "An interactive cheatsheet tool for the command-line"
-  homepage "https://github.com/denisidoro/navi"  
-  version :latest
+  homepage "https://github.com/denisidoro/navi"
   sha256 :no_check
   head "https://github.com/denisidoro/navi.git", :branch => "dev"
 
