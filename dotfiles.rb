@@ -1,8 +1,8 @@
 class Dotfiles < Formula
   desc "Personal dotfiles"
   homepage "https://github.com/denisidoro/dotfiles"
-  url "https://github.com/denisidoro/dotfiles/archive/v20191121.tar.gz"
-  sha256 "02a7ac0c0ecb3ca411c4aaa93aa848aae1534270243aa6c4e56f14d289603f03"
+  url "https://github.com/denisidoro/dotfiles/archive/v2019.12.09.tar.gz"
+  sha256 "bac7e5a3285c7eba515c81a57ef74975153faa25e5ba659a967a54859b78d834"
 
   depends_on "fzf"
 
