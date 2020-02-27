@@ -1,17 +1,18 @@
 class Navirs < Formula
-  version '2.0.2'
+  version '2.0.4'
   desc "An interactive cheatsheet tool for the command-line."
   homepage "https://github.com/denisidoro/navi"
 
   if OS.mac?
       url "https://github.com/denisidoro/navi/releases/download/v#{version}/navi-macos-amd64.tar.gz"
-      sha256 "58c7b28f13c2b709cd816561e8c5f9614b360757c81004803c784769afc97854"
+      sha256 "19e3acde66d30a9d936932aef2e8c371718cec230fc3783c49dbc661e56d451d"
   elsif OS.linux?
       url "https://github.com/denisidoro/navi/releases/download/v#{version}/navi-linux-amd64.tar.gz"
-      sha256 "4ceed78bcf700d4178b99d6ec2f92856be062f5fa1ca4d359bc5f29f0c362d46"
+      sha256 "854bda3c6a26edc41351b58976a98417cd75bec4f91262de0e15ccc637802a7b"
   end
 
   conflicts_with "navi", :because => "both install `navi` binaries"
+  depends_on "fzf"
 
   def install
     bin.install "navi"
