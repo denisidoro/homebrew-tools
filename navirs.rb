@@ -15,7 +15,8 @@ class Navirs < Formula
   depends_on "fzf"
 
   def install
-    bin.install "navi"
+    libexec.install Dir["*"]
+    bin.write_exec_script (libexec/"navi")
     # man1.install "doc/rg.1"
 
     # bash_completion.install "complete/rg.bash"
