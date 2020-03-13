@@ -1,14 +1,14 @@
 class Navi < Formula
-  version '2.0.6'
+  version '2.0.11'
   desc "Interactive cheatsheet tool for the command-line."
   homepage "https://github.com/denisidoro/navi"
 
   if OS.mac?
       url "https://github.com/denisidoro/navi/releases/download/v#{version}/navi-x86_64-osx.tar.gz"
-      sha256 "e88bda2db1bd1cc0ea4c2e5438f85828486d57ee0934ece2cf85ab4c3557d4b5"
+      sha256 "3c6e9ca5461d49efeed9662f326a2868da20d6e0b3fe639dc55a22230a96b07e"
   elsif OS.linux?
       url "https://github.com/denisidoro/navi/releases/download/v#{version}/navi-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c4018b19fc4622612d22a0566c483007aa5438e81d0909105b85b7fe8ac5ffeb"
+      sha256 "27df4c57f6ba2f12bfb1a1fe06cdb272990d11dc74a4e8de79d23a62fb884509"
   end
 
   depends_on "fzf"
