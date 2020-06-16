@@ -2,7 +2,7 @@ class Dotfiles < Formula
   desc "Personal dotfiles"
   homepage "https://github.com/denisidoro/dotfiles"
   url "https://github.com/denisidoro/dotfiles/archive/v2019.12.09.tar.gz"
-  sha256 "bac7e5a3285c7eba515c81a57ef74975153faa25e5ba659a967a54859b78d834"
+  sha256 "5f7d4bb5b53583f6a333a3eb7939e22f6b070cd298f41acd9ba1404abec669c9"
 
   def install
     libexec.install Dir["*"]
