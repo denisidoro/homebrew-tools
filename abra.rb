@@ -1,4 +1,4 @@
-class abra < Formula
+class Abra < Formula
   version '0.1.0'
   desc "Easily share data between different terminal windows."
   homepage "https://github.com/denisidoro/abra"
